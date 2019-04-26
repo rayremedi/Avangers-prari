@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER CONTAINER */
+#header-container img{
+    height: 389px;
+    width: 100%;
+}
+/* MENU CONTAINER */
+#menu-container{
+    position: relative;
+    width: 100%;
+    height: 81px;
+    background-color: #302C2C;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-container a{
+    position: relative;
+    top:20px;
+    font-size: 25px;
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* IRONMAN CONTAINER */
+.ironman{
+    
+    background-image: url(images/BgIronMan.png);
+    height: 819px;
+    width: 100%;
+    
+}
+
+.ironman .logo-ironman{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+  
+}
+
+.ironman .img-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.ironman .img-text img{
+    position: absolute;
+width: 365px;
+height: 487px;
+left: 200px;
+top: 160px;
+box-shadow:  10px 5px 5px red;
+}
+.ironman .img-text p{
+    position: absolute;
+width: 640px;
+height: 468px;
+right: 130px;
+top: 140px;
+font-weight: bold;
+font-size: 38px;
+line-height: 52px;
+color: white;
+font-family: 'Acme', sans-serif;
+}
+
+/* CAPTAIN AMERICA CONTAINER */
+.captainamerica{
+    background-image: url(images/BgCaptainAmerica.png);
+    height: 819px;
+    width: 100%;
+}
+.captainamerica .logo-captainamerica{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+  
+}
+.captainamerica .img-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.captainamerica .img-text p{
+    position: absolute;
+    width: 640px;
+    height: 468px;
+    left: 130px;
+    top: 200px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+.captainamerica .img-text img{
+    position: absolute;
+    width: 500px;
+    height: 480px;
+    right: 170px;
+    top: 160px;
+    box-shadow:  -10px 5px 5px black;
+}
+/* DOCTOR STRANGE CONTAINER */
+.doctorstrange{
+    background-image: url(images/BgDoctorStrange.png);
+    background-size: 100%;
+    height: 870px;
+    width: 100%;
+}
+.doctorstrange .logo-doctorstrange{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.doctorstrange .img-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.doctorstrange .img-text p{
+    position: absolute;
+    width: 640px;
+    height: 468px;
+    right: 130px;
+    top: 120px;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 52px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+.doctorstrange .img-text img{
+    position: absolute;
+    width: 500px;
+    height: 530px;
+    left: 170px;
+    top: 125px;
+    box-shadow:  10px 5px 5px blue;
+}
+
+/* THOR CONTAINER */
+.thor{
+    background-image: url(images/BgThor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 819px;
+}
+.thor .logo-thor{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+
+.thor .img-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.thor .img-text p{
+    position: absolute;
+    width: 640px;
+    height: 468px;
+    left: 130px;
+    top: 200px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+.thor .img-text img{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    right: 170px;
+    top: 160px;
+    box-shadow:  -10px 5px 5px white;
+}
