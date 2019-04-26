@@ -11,7 +11,7 @@ body{
 /* MENU CONTAINER */
 #menu-container{
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 81px;
     background-color: #302C2C;
     display: flex;
@@ -21,10 +21,11 @@ body{
 #menu-container a{
     position: relative;
     top:20px;
-    font-size: 25px;
+    font-size: 35px;
     padding: 0 20px 0 20px;
     text-decoration: none;
     color: white;
+    font-family: 'Acme', sans-serif;
 }
 
 /* IRONMAN CONTAINER */
@@ -32,7 +33,7 @@ body{
     
     background-image: url(images/BgIronMan.png);
     height: 819px;
-    width: 100%;
+    width: 100vw;
     
 }
 
@@ -74,7 +75,8 @@ font-family: 'Acme', sans-serif;
 /* CAPTAIN AMERICA CONTAINER */
 .captainamerica{
     background-image: url(images/BgCaptainAmerica.png);
-    height: 819px;
+    height: 100vh;
+    width: 100vw;
     width: 100%;
 }
 .captainamerica .logo-captainamerica{
@@ -105,8 +107,8 @@ font-family: 'Acme', sans-serif;
 }
 .captainamerica .img-text img{
     position: absolute;
-    width: 500px;
-    height: 480px;
+    width: 350px;
+    height: 500px;
     right: 170px;
     top: 160px;
     box-shadow:  -10px 5px 5px black;
@@ -115,8 +117,8 @@ font-family: 'Acme', sans-serif;
 .doctorstrange{
     background-image: url(images/BgDoctorStrange.png);
     background-size: 100%;
-    height: 870px;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 .doctorstrange .logo-doctorstrange{
     display: flex;
@@ -145,7 +147,7 @@ font-family: 'Acme', sans-serif;
 
 .doctorstrange .img-text img{
     position: absolute;
-    width: 500px;
+    width: 400px;
     height: 530px;
     left: 170px;
     top: 125px;
@@ -157,7 +159,8 @@ font-family: 'Acme', sans-serif;
     background-image: url(images/BgThor.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 819px;
+    height: 100vh;
+    width: 100vw;
 }
 .thor .logo-thor{
     display: flex;
@@ -192,3 +195,121 @@ font-family: 'Acme', sans-serif;
     top: 160px;
     box-shadow:  -10px 5px 5px white;
 }
+
+/* FILM CONTAINER */
+
+#films-container{
+    /* border: 4px solid green; */
+   position: absolute;
+    height: 100vh;
+    width: 100%;
+   background-image: url("images/BgaquarelAvengers.jpeg");
+   background-size: cover;
+}
+
+.slideshow {
+    top: 5px;
+    right: 25px;
+    position: relative;    
+	
+}
+.sContent {
+    display: flex;
+    justify-content: space-between;
+	position: relative;   
+	
+        
+
+}
+.sContent li{
+    list-style-type: none;
+}
+ /* AFFICHE container */
+.affiche-films{
+    /* border: 4px solid black; */
+    height: 100vh;
+    width: 100%;
+position: relative;
+
+
+}
+.Affiche{   
+    /* border: 4px solid red; */
+    display: flex;
+   justify-content: space-around;
+    
+   
+
+}
+.Affiche li{
+    list-style-type: none;
+}
+.Affiche img{
+  
+    position: relative;
+    top: 40px;
+    height:460px;
+    box-shadow:  -10px 5px 5px white;
+    
+}
+
+/* COMICS CONTAINER */
+
+#comics-container {
+    position: relative;
+    top: 1100px;
+    height: 100vh;
+  }
+  
+  #photos {
+    height: 100vh;
+    opacity: 0.88;
+  }
+  
+  #photos img {
+    height: 350px;
+    width: 30%;
+    float: left;
+    display: fixed;
+    margin: 2px;
+  }
+  
+  ul img {
+    list-style: none;
+    margin: 0px auto;
+    padding: 10px;
+    /* display: block; */
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  
+  #overlay {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+  }
+  
+  #overlay img {
+    margin: 10% auto 0;
+    width: 550px;
+    border-radius: 5px;
+  }
+  
+  #photos {
+    width: 100%;
+  }
+  
+  #photo-gallery {
+    height: 100vh;
+    width: 100%;
+  }
+  #photo-gallery li{
+      list-style-type: none;    
+  }
+  
